@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>icons/download.ico</file>
+        <file>icons/upload.ico</file>
+        <file>icons/add-user.ico</file>
+        <file>icons/graduated.ico</file>
+        <file>icons/list.ico</file>
+        <file>icons/tree.ico</file>
+        <file>icons/error.ico</file>
+    </qresource>
+</RCC>
