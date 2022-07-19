@@ -1,11 +1,11 @@
 <RCC>
-    <qresource prefix="/icons">
-        <file>icons/download.ico</file>
-        <file>icons/upload.ico</file>
-        <file>icons/add-user.ico</file>
-        <file>icons/graduated.ico</file>
-        <file>icons/list.ico</file>
-        <file>icons/tree.ico</file>
-        <file>icons/error.ico</file>
+    <qresource prefix="/">
+        <file alias="add-user">icons/add-user.ico</file>
+        <file alias="download">icons/download.ico</file>
+        <file alias="error">icons/error.ico</file>
+        <file alias="graduated">icons/graduated.ico</file>
+        <file alias="list">icons/list.ico</file>
+        <file alias="tree">icons/tree.ico</file>
+        <file alias="upload">icons/upload.ico</file>
     </qresource>
 </RCC>

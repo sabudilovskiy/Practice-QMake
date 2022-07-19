@@ -1,6 +1,6 @@
 #include "AVLWindow.h"
 #include <QObject>
-#include "ui_avlwindow.h"
+#include "ui_AVLWindow.h"
 
 
 AVLWindow::AVLWindow(const QString& name, const AVLTreeController& controller, QWidget *parent) :

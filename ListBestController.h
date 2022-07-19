@@ -10,6 +10,7 @@ public:
     void put_after(const Student &student, std::function<bool (const Student &, const Student &)> pred) override;
     void put_before(const Student &student, std::function<bool (const Student &, const Student &)> pred) override;
     void put_begin(const Student &student) override;
+    void clear() override;
 };
 
 #endif // LISTMAXCONTROLLER_H

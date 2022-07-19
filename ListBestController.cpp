@@ -49,3 +49,9 @@ void ListBestController::put_begin(const Student &student) {
         ListController::put_begin(student);
     }
 }
+
+void ListBestController::clear()
+{
+    max = -1;
+    ListController::clear();
+}

@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
     AVLTree<Student> tree_balance, tree_non_balance;
     AVLTreeController tree_controller_balance(tree_balance), tree_controller_non_balance(tree_non_balance);
     StudentController student_controller(list_controller_lexical, list_controller_excellent, list_controller_best, tree_controller_balance, tree_controller_non_balance);
-    MainWindow w(student_controller);
+    MainWindow w(student_controller );
     w.show();
     return a.exec();
 }

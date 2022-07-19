@@ -16,12 +16,9 @@
     <verstretch>0</verstretch>
    </sizepolicy>
   </property>
-  <property name="windowTitle">
-   <string>Form</string>
-  </property>
   <property name="windowIcon">
    <iconset resource="resources.qrc">
-    <normaloff>:/icons/icons/tree.ico</normaloff>:/icons/icons/tree.ico</iconset>
+    <normaloff>:/tree</normaloff>:/tree</iconset>
   </property>
   <property name="styleSheet">
    <string notr="true">background-color:white;</string>

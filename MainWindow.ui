@@ -27,7 +27,7 @@
   </property>
   <property name="windowIcon">
    <iconset resource="resources.qrc">
-    <normaloff>:/icons/icons/graduated.ico</normaloff>:/icons/icons/graduated.ico</iconset>
+    <normaloff>:/graduated</normaloff>:/graduated</iconset>
   </property>
   <property name="styleSheet">
    <string notr="true">background-color:white</string>
@@ -125,7 +125,7 @@ vertical-align: middle;</string>
         </property>
         <property name="icon">
          <iconset resource="resources.qrc">
-          <normaloff>:/icons/icons/upload.ico</normaloff>:/icons/icons/upload.ico</iconset>
+          <normaloff>:/upload</normaloff>:/upload</iconset>
         </property>
        </widget>
       </item>
@@ -256,7 +256,7 @@ vertical-align: middle;</string>
         </property>
         <property name="icon">
          <iconset resource="resources.qrc">
-          <normaloff>:/icons/icons/download.ico</normaloff>:/icons/icons/download.ico</iconset>
+          <normaloff>:/download</normaloff>:/download</iconset>
         </property>
        </widget>
       </item>

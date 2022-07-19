@@ -21,7 +21,7 @@ public:
     virtual void put_after(const Student& student, std::function<bool(const Student& from_list, const Student& added)> pred);
     List<Student>::Iterator<Student> begin();
     List<Student>::Iterator<Student> end();
-    void clear();
+    virtual void clear();
     signals:
     void added_elem();
     void clear_list();

@@ -40,7 +40,6 @@ protected:
             return p->h;
         }
         else return 0;
-        //return p?p->height:0;
     }
     int bfactor(Node<INFO>* p)
     {
@@ -51,7 +50,6 @@ protected:
         byte hl = height(p->left);
         byte hr = height(p->right);
         p->h = std::max(hl, hr) + 1;
-        //p->height = (hl>hr?hl:hr)+1;
     }
     Node<INFO>* rotateright(Node<INFO>* p) // правый поворот вокруг p
     {
@@ -162,23 +160,12 @@ protected:
         root = insert(root, old_root->key);
     }
 public:
-    void balance(){
-        auto old_root = root;
-        root = nullptr;
-        copy(old_root);
-        delete old_root;
-    }
     void clear(){
         delete root;
         root = nullptr;
     }
     ~AVLTree(){
         clear();
-    }
-    template <class... Args>
-    void emplace(Args&& ...args, bool need_balance = true){
-        INFO info(std::forward<Args>(args)...);
-        add(std::move(info), need_balance);
     }
     void add(INFO&& k, bool need_balance = true){
         root = insert(root, std::forward<INFO>(k), need_balance);
